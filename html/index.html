@@ -8,6 +8,24 @@
     <link rel="icon" type="image/png" href="../img/favicon.ico">
     <meta name="description" content="初段から～七段の方限定の囲碁会。持ち時間40分切れ負けでの対局3局を予定しています。詰碁、棋譜並べ、囲碁談義といった自主勉強枠も用意しています。参加者が安定して増えてきたらプロ棋士をお招きして勉強会を企画します。リーグ戦や1日制大会を企画予定です。">
     <meta name="keywords" content="囲碁, 時計あり対局, 勉強, 詰碁, 棋譜並べ, 囲碁談義">
+    <style>
+
+      .googleform-wrapper {
+        position: relative;
+        width: 100%;
+        height: 800px;
+        overflow-y: scroll;
+      }
+
+      .googleform-wrapper iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+
+    </style>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
@@ -136,9 +154,12 @@
       </div>
 
       <!-- 申し込み & お問い合わせ -->
-      <div class="text-center h-50">
+      <div class="text-center">
         <a id="contact" class="nav-link"><h3 class="bg-info mt-5">申し込み & お問い合わせ</h3></a>
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc0CYPDJbgLs6wZ4gvqLJ8cMc4QcJfawUZY0sd3Ln_vOoqXCQ/viewform?embedded=true" width="640" height="750" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
+
+        <div class="googleform-wrapper">
+          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc0CYPDJbgLs6wZ4gvqLJ8cMc4QcJfawUZY0sd3Ln_vOoqXCQ/viewform?embedded=true" width="640" height="750" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
+        </div>
       </div>
     </div>
 
